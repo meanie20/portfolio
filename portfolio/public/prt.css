@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: coral;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.hero{
+    background-color: rgb(122, 15, 3);
+    height: auto;   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+#nav-list{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+#nav-list li{
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+    margin: 0;
+ }
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+ .hero-text{
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+.button{
+    display: flex;
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background: color #000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
